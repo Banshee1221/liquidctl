@@ -118,6 +118,8 @@ class HydroPlatinum(UsbHidDriver):
             {'fan_count': 2, 'rgb_fans': True}),
         (0x1B1C, 0x0C20, None, 'Corsair H100i PRO XT (experimental)',
             {'fan_count': 2, 'rgb_fans': False}),
+        (0x1B1C, 0x0C13, None, 'Corsair H115i PRO (experimental)',
+            {'fan_count': 2, 'rgb_fans': False}),
         (0x1B1C, 0x0C21, None, 'Corsair H115i PRO XT (experimental)',
             {'fan_count': 2, 'rgb_fans': False}),
     ]
